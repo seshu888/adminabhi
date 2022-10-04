@@ -1,0 +1,67 @@
+.sidebar{
+    flex: 1;
+    border:0.5px solid grey;
+    .top{
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .logo{
+            padding: 10px;
+            font-size: 22px;
+            font-weight: bold;
+            color:rebeccapurple;
+        }
+    }
+    .center{
+        margin-top:10px ;
+        ul{
+            list-style: none;
+            margin: 0;  
+            padding:0;
+            
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+            h4{
+                margin-left: 8px;
+                margin-top: 8px;
+            }
+            li{
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                color:rebeccapurple;
+                font-size: 16px;
+                padding-left: 20px;
+                cursor: pointer;
+                &:hover{
+                    background-color: grey;
+                }
+                span{
+                    color:black;
+                }
+            }
+        }
+        
+    }
+    .down{
+        display: flex;
+        margin-top: 20px;
+        margin-left: 10px;
+        gap: 10px;
+        .chooseColor{
+            width:30px;
+            height: 30px;
+            border-radius: 5px;
+            background-color: black;
+        }
+        .chooseColor1{
+            width:30px;
+            height: 30px;
+            border-radius: 5px;
+            background-color:wheat;
+        }
+    }
+
+}

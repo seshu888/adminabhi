@@ -1,0 +1,22 @@
+.home{
+    display: flex;
+    min-height:100vh;
+    Sidebar{
+        flex:1;
+        
+    }
+    .homeContainer{
+        flex:6;
+        .widgets,.charts{
+            display: flex;
+            justify-content: space-around;
+            padding:20px;
+        }
+        .charts{
+            padding:5px 20px;
+            display: flex;
+            gap:10px;
+        }
+    }
+    
+}

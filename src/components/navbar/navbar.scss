@@ -1,0 +1,83 @@
+.navbar{
+    height:50px;
+    display: flex;
+    .navbarWrapper{
+        padding: 10px;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+        .searchDiv{
+            border: 0.1px solid grey;
+            height: max-content;
+            padding:5px;
+            align-items: center;
+            display: flex;
+            gap:5px;
+            border-radius: 5px;
+            input{
+                border:none;
+                outline:none;
+            }
+        }
+        .iconsDiv{
+            margin-right: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            gap:20px;
+            FontAwesomeIcon{
+                cursor: pointer;
+            }
+            .languageIcon{
+                display: flex;
+                gap:5px;
+                align-items: center;
+                cursor: pointer;
+            }
+            .profilePic{
+                padding: 5px;
+                img{
+                    height:35px;
+                    width:50px;
+                    border-radius: 50%;
+                }
+            }
+            .notifiIcon{
+                position: relative;
+                cursor: pointer;
+                .notify{
+                    background-color: red;
+                    height: 15px;
+                    width:15px;
+                    border-radius: 50%;
+                    color:white;
+                    font-size: 12px;
+                    object-fit: contain;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+            .msgIcon{
+                cursor: pointer;
+                position: relative;
+                .notify{
+                    background-color: red;
+                    height: 15px;
+                    width:15px;
+                    border-radius: 50%;
+                    color:white;
+                    font-size: 12px;
+                    object-fit: contain;
+                    position: absolute;
+                    top: -5px;
+                    right: -5px;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

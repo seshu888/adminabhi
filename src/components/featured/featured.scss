@@ -1,0 +1,63 @@
+.featured {
+	display: flex;
+	flex-direction: column;
+	flex: 2;
+	gap: 10px;
+	padding: 10px;
+	-webkit-box-shadow: 10px 18px 38px -10px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: 10px 18px 38px -10px rgba(0, 0, 0, 0.75);
+	box-shadow: 10px 18px 38px -10px rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+	.top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		h1 {
+			font-size: 22px;
+			color: gray;
+		}
+		.icon {
+			margin-left: 60px;
+		}
+	}
+	.bottom {
+		display: flex;
+		flex-direction: column;
+		height: max-content;
+
+		.featuredChart {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			.circle {
+				height: 150px;
+				width: 150px;
+			}
+			.salesDesc {
+				align-items: center;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				text-align: center;
+				gap: 10px;
+				span {
+					font-size: 22px;
+					font-weight: bold;
+				}
+				.salesPara {
+					font-size: 14px;
+					color: gray;
+				}
+			}
+		}
+	}
+    .targetDiv{
+        display: flex;
+        justify-content: space-between;
+        .weekTargets{
+            display: flex;
+            align-items: center;
+            gap:2px;
+        }
+    }
+}
